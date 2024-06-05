@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}header{
+  width: 100%;
+  box-shadow: 1px 2px 4px rgb(219, 219, 219);
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  color: rgb(136, 136, 136);
+}
+.form{
+  width: 40%;
+  box-shadow: 1px 3px 14px rgb(219, 219, 219);
+  padding: 10px;
+  margin-top: 5%;
+  color: rgb(136, 136, 136);
+  border-radius: 5px;
+}
+h3{
+  text-align: center;
+}
+.form form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.form form .input-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+input{
+  width: 80%;
+  padding: 5px;
+  height: 40px;
+  border: none;
+  background-color: rgb(235, 235, 235);
+  outline: none;
+  border-radius: 5px;
+}
+button{
+  padding: 15px 30px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  color:white;
+  background-color: rgb(61, 61, 61);
+  border-radius: 5px;
+}
+footer{
+  position: absolute;
+  margin-top: 45%;
+  border-top: 1px solid rgb(77, 77, 77);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.php{
+  color: rgb(189, 11, 11);
+  margin-top: 5%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}

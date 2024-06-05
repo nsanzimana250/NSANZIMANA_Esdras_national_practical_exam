@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;text-decoration: none;
+}
+body{
+  background-color: white;
+}
+header{
+  width: 100%;
+  height: 10vh;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(138, 138, 138);
+  justify-content: space-evenly;
+  box-shadow: 1px 2px 4px rgb(199, 199, 199);
+}
+header .user, .logout{
+  width: 20%;
+  display: flex;
+  justify-content: end;
+}
+header .logout a{
+  padding: 10px 40px;
+  font-weight: bold;
+  text-decoration: none;
+  color: brown;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+header .logout a:hover{
+  color: rgb(218, 218, 218);
+}
+section{
+  display: flex;
+  width: 100%;
+  height: 90vh;
+}
+section .nav{
+  width: 20%;
+  height: 100%;
+  background-color: rgb(87, 87, 87);
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section .nav .log{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+  text-transform: capitalize;
+}
+section .nav ul{
+  width: 100%;
+  margin-top: 10%;
+  list-style: none;
+}
+section .nav ul li{
+  padding: 20px;
+  text-transform: capitalize;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+section .nav ul li:hover{
+  background-color: white;
+  color: black;
+}
+section .right{
+  width: 80%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+section .right .head{
+  width:100%;
+  background-color: white;
+  margin-top: 1%;
+  color: rgb(138, 138, 138);
+  background-color: rgb(236, 236, 236);
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+section .right .table{
+  width: 95%;
+  height: 70vh;
+  overflow-y: scroll;
+}
+section .right table{
+  width: 100%;
+  border:  1px solid rgb(138, 138, 138);
+  border-collapse: collapse;
+  margin-top: 2%;
+}
+section .right table td ,th{
+  border:  1px solid rgb(138, 138, 138);
+  border-collapse: collapse;
+  padding: 6px;
+  text-align: center;
+}
+section .right .table tr td a{
+  color: rgb(23, 90, 23);
+  text-align: center;
+}
+section .right table .btn{
+  padding: 5px 40px;
+  font-size: 17px;
+  font-weight:  bolder;
+  border: none;
+  outline: none;
+  background-color: rgb(236, 236, 236);
+  color: rgb(138, 138, 138);
+  margin-left:70%;
+}
+section .right .form{
+  width: 60%;
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 1px 3px 16px rgb(230, 230, 230);
+  padding: 10px;
+  height: 60%;
+
+}
+section .right .form input{
+  width: 70%;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  background-color: rgb(243, 243, 243);
+}
+button{
+  padding: 12px 40px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.right .cord-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 60vh;
+  gap: 20px;
+}
+.right .cord-container .cord{
+  width: 200px;
+  height: 100px;
+  box-shadow: 0px 0px 6px rgb(156, 156, 156);
+  border-radius: 10%;
+  color: rgb(87, 87, 87);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer{
+  margin-top: 20%;
+}
+select{
+  width: 70%;
+  height: 40px;
+  background-color: rgb(243, 243, 243);
+  border: none;
+  outline: none;
+}
